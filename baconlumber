@@ -56,7 +56,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   
-  AddButton(Tabo, {
+  AddButton(Tab3o, {
      Name = "NullFire Hub",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()

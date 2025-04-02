@@ -31,7 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm win"})
-     
+     local Tab2o = MakeTab({Name = "Script cần key"})
+     local Tab3o = MakeTab({Name = "Script No Key"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -41,9 +42,23 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "skull Hub",
     Callback = function()
      loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Tn roblox Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/Bringall"))()
+  end
+  })
+  
+  AddButton(Tabo, {
+     Name = "NullFire Hub",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   end
   })
